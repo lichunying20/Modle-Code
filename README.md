@@ -17,7 +17,7 @@ class xxxNet ( nn . Module ):
 2、在 forward 方法中，缺少 self 参数，应该将 ```def forward(x): ```改为 ```def forward(self, x):```。
 
 ### 导致的后果
-
+这两个语法问题都会导致程序出现语法错误，无法正常运行。在这个例子中，由于模型没有被正确定义，因此无法使用该模型进行训练或推理。
 
 
 ## ResNet34 模型代码注释
