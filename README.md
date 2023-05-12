@@ -49,7 +49,7 @@ class xxxNet ( nn . Module ):
 
 在```x = self.layer1(x)```处打断点的调试结果
  
-
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/43838797-1b5f-46ca-b6c5-689be2e54fb1)
 
 在```x = self.layer2(x)```处打断点的调试结果
 
