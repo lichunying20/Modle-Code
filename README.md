@@ -69,7 +69,8 @@ class xxxNet ( nn . Module ):
 
 在```x = x.view(x.shape[0], -1)```处打断点的调试结果 
  
- 
+ ![image](https://github.com/lichunying20/Modle-Code/assets/128216499/d0bad255-9b75-4b51-8f0f-a4a2a216d079)
+
 在```x = self.classifier(x)```处打断点的调试结果
 
 
