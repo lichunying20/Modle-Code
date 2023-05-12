@@ -57,6 +57,7 @@ class xxxNet ( nn . Module ):
 
 在```x = self.layer3(x)```处打断点的调试结果
 
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/8248c5be-1246-49f0-8a20-2fa47440d11d)
 
 在```x = self.layer4(x)```处打断点的调试结果
 
