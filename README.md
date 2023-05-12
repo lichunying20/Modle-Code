@@ -43,32 +43,32 @@ class xxxNet ( nn . Module ):
 
 
 ## 对ResNet模型进行打断点调试
-在x = self.maxpooling(x)处打断点的调试结果
+在```x = self.maxpooling(x)```处打断点的调试结果
 
 ![image](https://github.com/lichunying20/Modle-Code/assets/128216499/1c0d0af1-85aa-48c9-a948-5fb1c0931be4)
 
-在x = self.layer1(x)处打断点的调试结果
+在```x = self.layer1(x)```处打断点的调试结果
  
 
 
-在x = self.layer2(x)处打断点的调试结果
+在```x = self.layer2(x)```处打断点的调试结果
 
 
-在x = self.layer3(x)处打断点的调试结果
+在```x = self.layer3(x)```处打断点的调试结果
 
 
-在x = self.layer4(x)处打断点的调试结果
+在```x = self.layer4(x)```处打断点的调试结果
 
-在x = self.avgpooling(x)处打断点的调试结果
+在```x = self.avgpooling(x)```处打断点的调试结果
        
 
-在x = x.view(x.shape[0], -1)处打断点的调试结果 
+在```x = x.view(x.shape[0], -1)```处打断点的调试结果 
  
  
-在x = self.classifier(x)处打断点的调试结果
+在```x = self.classifier(x)```处打断点的调试结果
 
 
-在output = F.softmax(x)处打断点的调试结果
+在```output = F.softmax(x)```处打断点的调试结果
 
 
 ## 了解ResNet34模型和ResNet32模型
