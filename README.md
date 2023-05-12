@@ -61,6 +61,8 @@ class xxxNet ( nn . Module ):
 
 在```x = self.layer4(x)```处打断点的调试结果
 
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/bf5769ef-3472-4768-854c-12c376b8a1ac)
+
 在```x = self.avgpooling(x)```处打断点的调试结果
        
 
