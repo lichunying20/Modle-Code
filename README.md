@@ -65,6 +65,7 @@ class xxxNet ( nn . Module ):
 
 在```x = self.avgpooling(x)```处打断点的调试结果
        
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/bccbd72d-2d11-4ef0-b79f-934209e96f97)
 
 在```x = x.view(x.shape[0], -1)```处打断点的调试结果 
  
