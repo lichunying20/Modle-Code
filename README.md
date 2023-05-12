@@ -43,14 +43,16 @@ class xxxNet ( nn . Module ):
 
 
 ## 对ResNet模型进行打断点调试
-### 
+ 在x = self.layer1(x)
+ 
 ![6R)8G5GXEKSAWD116`__$G3](https://github.com/lichunying20/Modle-Code/assets/128216499/f5bfa209-4e7d-4179-8998-fd39b27ff7f6)
 
+在x = self.layer2(x)
 
-###
+![GNI9IIQ918%8W_}) 7{`)@N](https://github.com/lichunying20/Modle-Code/assets/128216499/332252f4-3ffd-4129-b9ad-7c0e29568041)
 
 
-###
+
 
 
 
