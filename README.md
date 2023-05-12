@@ -43,12 +43,14 @@ class xxxNet ( nn . Module ):
 
 
 ## 对ResNet模型进行打断点调试
+### 
+![6R)8G5GXEKSAWD116`__$G3](https://github.com/lichunying20/Modle-Code/assets/128216499/f5bfa209-4e7d-4179-8998-fd39b27ff7f6)
 
 
+###
 
 
-
-
+###
 
 
 
