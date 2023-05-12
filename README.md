@@ -42,7 +42,7 @@ class xxxNet ( nn . Module ):
 
 
 
-
+## 对ResNet模型进行打断点调试
 
 
 
