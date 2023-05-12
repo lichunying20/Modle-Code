@@ -73,9 +73,11 @@ class xxxNet ( nn . Module ):
 
 在```x = self.classifier(x)```处打断点的调试结果
 
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/f8fda6c4-9c1e-40a7-a349-d201c862e29d)
 
 在```output = F.softmax(x)```处打断点的调试结果
 
+![image](https://github.com/lichunying20/Modle-Code/assets/128216499/a3700f59-c7b4-4700-b432-901078db677c)
 
 ## 了解ResNet34模型和ResNet32模型
 ### ResNet34模型
