@@ -19,7 +19,7 @@ class xxxNet ( nn . Module ):
 ### 导致的后果
 这两个语法问题都会导致程序出现语法错误，无法正常运行。在这个例子中，由于模型没有被正确定义，因此无法使用该模型进行训练或推理。
 
-1、当我们创建对象时，__init__ 方法不会被调用，而是会调用默认的构造方法，也就是一个空方法。这会导致对象的属性没有被正确初始化，可能会导致程序出现错误。
+1、当我们创建对象时，```__init__``` 方法不会被调用，而是会调用默认的构造方法，也就是一个空方法。这会导致对象的属性没有被正确初始化，可能会导致程序出现错误。
 
 2、在 forward 方法中缺少 self 参数会导致无法访问当前实例的属性和方法，从而导致运行时错误。因为 forward 方法是类的实例方法，需要通过实例来调用，而缺少 self 参数则无法访问当前实例。
 
@@ -29,9 +29,10 @@ import torch
 import torch . nn as nn 
 import torch . nn . functional as F  
 class xxxNet ( nn . Module ):
-    def _ init _( self )：
+    def__init__( self )：
         pass
-    def forward ( x ):
+    def forward ( self,x ):
         return x 
 ```
+
 ## ResNet34 模型代码注释
